@@ -1,0 +1,125 @@
+.nav-link{
+    text-transform:uppercase;
+    color: #000 !important;
+    padding: 10px !important;
+    font-weight: 400;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #fbfbfb !important;
+}
+.lts-connect{
+    border: solid 2px #ff1e19;
+    text-transform: uppercase;
+    border-radius: 0px;
+    
+}
+.section-1{
+    padding-left: 5rem;
+    padding-top: 0rem;
+}
+.span-color{
+    color: #ff1e19;
+
+
+}
+.section-1-heading{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.lts-connect-2{
+ background-color: #ff1e19;
+ padding: 10px 50px !important;
+ color: #fff;
+ border-radius: 0px !important;
+ text-transform: capitalize;
+ border: solid 2px #ff1e19;
+}
+.lts-connect-2:hover{
+color: #ff1e19;
+background: #fbfbfb;
+border: solid 2px #ff1e19;
+}
+.active{
+    color: #ff1e19 !important;
+}
+.lts-connect:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #ff1e19;
+    color: #fff;
+    border-color: var(--bs-btn-hover-border-color);
+}
+.form{
+    color: #000;
+}
+.input-head{
+    color: #d0d0d0;
+    font-size: 14px;
+}
+.inquery-head{
+color: #ff1e19;
+font-weight: 700;
+text-transform: capitalize;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: 1px solid #ced4da !important;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px !important;
+    -webkit-appearance: none;
+    border-radius: 0px;
+    -moz-appearance: none;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control{
+
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .for-mob{
+        display: flex!important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    }
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        display: flex;
+        align-items: center;
+    }
+    .section-1{
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .inquery-head{
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .lts-connect-2{
+
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+  }
